@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F6F7;
+    
+}
+
+
+#container{
+    width: 90vw;
+    height: 100vh;
+    background-color: #F5F6F7;
+    background: url('../imagens/fundo.png');
+    background-size: cover;
+    
+}
+
+#links{
+    border-radius: 8px;
+    width: 90vw;
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color:  #F5F6F7;
+
+}
+
+.navbar-brand{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+
+}
+
