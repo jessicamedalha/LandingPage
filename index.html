@@ -3,7 +3,7 @@
 
     <head>
         <title>
-            minha page
+            SpaceLandingPage
         </title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -18,32 +18,97 @@
 
 
     <body>
-        <div id="container"></div>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-            
-            <a class="navbar-brand" href="#">Space
-            </a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav" id="links">
-                    <li class="nav-item" >
-                        <a class="nav-link" href="#" >
-                            Link 1
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link 2</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link 3</a>
-                    </li>
-                </ul>
-            </div>
-            
-        </nav>
         
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            
+                        <a class="navbar-brand" href="#" id="space">Space
+                        </a>
+                        <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav" id="links">
+                                <li class="nav-item" >
+                                    <a class="nav-link" href="#" >
+                                        Link 1
+                                    </a>
+                                </li>
+            
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link 2</a>
+                                </li>
+            
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link 3</a>
+                                </li>
+                            </ul>
+                        </div>
+            
+                        <button class="btn btn-outline-success" type="submit" id="botao">
+                            Login
+                        </button>
+                    
+                    </nav>
+                </div>         
+            </div>
+            <div class="row" >
+                <div class="col">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <form id="forms">
+                                    <div class= "textos" style="text-align: center;" >
+                                        <div id="Texto1" class="form-text" >
+                                            Receba novidades por e-mail
+                                        </div>  
+                                        <div id="Texto2" class="form-text">
+                                            Preencha os seus dados para receber o material
+                        
+                        
+                                            <hr style="margin-left:20px; margin-right: 20px;" >
+                                        </div>    
+                                        <div style="text-align: left; padding-left: 20px; padding-right: 20px;">
+                                            <div class="mb-2">
+                                
+                                                <label for="exampleInputEmail1" class="form-label">
+                                                    Nome*:
+                                                </label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                            
+                                                <label for="exampleInputPassword1" class="form-label" id="email">
+                                                    E-mail*:
+                                                </label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            
+                                            </div>
+                                        </div>
+                        
+                        
+                                        <button type="submit" class="btn btn-primary" id="botaoForms" >
+                                            Enviar
+                                        </button>
+                                
+                                    </div>  
+                                    
+                                </form>
+                    
+                            </div>
+                        </div>
+                    </div> 
+            
 
+
+
+
+                </div>         
+            </div>
+        </div>
+ 
+
+ 
     </body>
 
 
