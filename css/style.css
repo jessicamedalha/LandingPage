@@ -2,16 +2,15 @@
     position: static;
 }
 
+nav img{
+    width: 100px;
+}
+
+
 li{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     margin-left: 70px;
-
-}
-
-#space{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
 
 }
 
@@ -30,9 +29,7 @@ body{
 #links{
     border-radius: 8px;
     width:600px;
-    margin-top: 50px;
-    margin-left: 150px;
-    background-color:  #F5F6F7;
+    background-color:  #Ffff;
 
 }
 
@@ -44,8 +41,6 @@ body{
 }
 
 #botao{
-    margin-top: 50px;
-    margin-right: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     background-color:#1E1A39;
@@ -120,10 +115,45 @@ label{
 /*Screen Mobile*/
 @media (max-width: 770px)
 {
- 
-}
-/*Screen Desktop*/
-@media (min-width: 770px)
-{ 
 
-}
+    body{
+        margin-top: 0px;
+        width: 100%;
+        height: 100vh;
+        background-color: #F5F6F7;
+        background: url('../imagens/fundo.png');
+        background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+
+    #forms{
+        width:200px;
+        height: 400px;
+    
+        background-color:#1E1A39;
+        border-radius: 8px;
+        padding-top: 20px;
+    
+    }
+
+
+    nav img{
+        width: 50px;
+    }
+
+    }
+    #botao{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5px;
+        background-color:#1E1A39;
+        border-radius: 8px;
+        border-color: #1E1A39;
+        width: 40px;
+        height: 20px;
+        
+    }
+    
+ 
+
